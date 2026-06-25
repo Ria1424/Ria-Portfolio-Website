@@ -44,7 +44,7 @@ This portfolio is designed with a curated **"Old Money" / Classic Editorial** ae
 
 ## 📁 Repository Structure
 
-The repository contains compiled static files optimized for instant delivery via GitHub Pages: <br>
+The repository contains compiled static files optimized for instant delivery via GitHub Pages: <br> 
 ├── index.html # Home page (Hero section & contact modal) <br>
 ├── about.html # Biography & academic timelines <br>
 ├── experience.html # Professional work timeline & volunteer registry <br>
