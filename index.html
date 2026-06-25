@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ria Sachin Chawak's Professional Portfolio. Data Analyst Intern & Final Year Computer Science & Business Systems Student.">
+    <meta name="author" content="Ria Sachin Chawak">
+    <title>Ria Sachin Chawak | Portfolio</title>
+    
+    <!-- Google Fonts: Playfair Display (Serif Headings), Lora (Serif Body), Montserrat (Sans-Serif UI) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <!-- Top Decorative Border -->
+    <div class="top-decorative-line"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo-container">
+                <span class="logo-monogram">RSC</span>
+                <span class="logo-divider">|</span>
+                <span class="logo-title">Ria Sachin Chawak</span>
+            </a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" aria-label="toggle navigation" id="navToggle">
+                <span class="hamburger"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav" id="navMenu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link ">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="experience.html" class="nav-link ">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="projects.html" class="nav-link ">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="skills.html" class="nav-link ">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="publications.html" class="nav-link ">Publications</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Wrapper -->
+    <main class="main-content">
+        
+<section class="hero-section">
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-pretitle">Curriculum Vitae & Portfolio</div>
+            <h1 class="hero-title">Ria Sachin Chawak</h1>
+            <p class="hero-designation">B.Tech Computer Science and Business Systems Graduate and Associate Software Engineer | AI, ML, DS Enthusiast</p>
+            
+            <div class="hero-divider-group">
+                <span class="line"></span>
+                <span class="crest-icon"><i class="fa-solid fa-feather-pointed"></i></span>
+                <span class="line"></span>
+            </div>
+
+            <p class="hero-brief">
+                A computer science and business systems graduate combining core software engineering foundations with business intelligence. Passionate about leveraging artificial intelligence, machine learning, and automation to build efficient, scalable, and high-impact technical solutions.
+            </p>
+
+            <div class="hero-actions">
+                <a href="resume.html" class="btn btn-primary">
+                    <span class="btn-text">View Resume</span>
+                    <i class="fa-solid fa-arrow-right-long btn-icon"></i>
+                </a>
+                <a href="mailto:riascial@gmail.com" class="btn btn-secondary">
+                    <span class="btn-text">Contact Me</span>
+                    <i class="fa-regular fa-envelope btn-icon"></i>
+                </a>
+            </div>
+        </div>
+
+        <!-- Profile Picture with Thin Brown Border -->
+        <div class="hero-profile-container">
+            <img src="static/images/ria_chawak.jpg" alt="Ria Chawak" class="hero-profile-image-simple">
+        </div>
+    </div>
+</section>
+
+
+<!-- Elegant Interactive Contact Modal/Section -->
+<section id="contact" class="contact-section">
+    <div class="container-narrow">
+        <div class="section-header">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="section-subtitle">Correspondence &amp; Collaborative Projects</div>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-card">
+            <p class="contact-invitation">
+                For professional inquiries, research collaboration, or project discussions, please leave a message or reach out via email.
+            </p>
+            
+            <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" required class="form-input" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" required class="form-input" placeholder="Your email address">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject</label>
+                    <input type="text" id="subject" name="subject" required class="form-input" placeholder="Topic of discussion">
+                </div>
+                <div class="form-group">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea id="message" name="message" rows="5" required class="form-textarea" placeholder="Write your message here..."></textarea>
+                </div>
+                
+                <button type="submit" class="btn btn-primary btn-block">
+                    <span class="btn-text">Send Message</span>
+                    <i class="fa-solid fa-paper-plane btn-icon"></i>
+                </button>
+            </form>
+            
+            <div id="formSuccess" class="form-success-msg hidden">
+                <i class="fa-solid fa-circle-check"></i> Your message has been sent successfully. Thank you!
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-decor-crest">
+                <i class="fa-solid fa-feather-pointed"></i>
+            </div>
+            
+            <div class="footer-socials">
+                <a href="https://github.com/Ria1424" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-icon-link">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/riachawak/" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon-link">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                <a href="https://www.codechef.com/users/coderriasc" target="_blank" rel="noopener noreferrer" title="CodeChef" class="social-icon-link" style="display: flex; align-items: center; justify-content: center;">
+                    <svg viewBox="0 0 512 512" fill="currentColor" style="width: 1.1rem; height: 1.1rem;">
+                        <path d="M410 230c0-66-54-120-120-120-30 0-57 11-78 29-21-18-48-29-78-29-66 0-120 54-120 120 0 24 7 46 19 65-17 19-27 45-27 73 0 54 40 99 93 107v18c0 10 8 18 18 18h186c10 0 18-8 18-18v-18c53-8 93-53 93-107 0-28-10-54-27-73 12-19 19-41 19-65zm-222 90h136v40H188v-40z"/>
+                    </svg>
+                </a>
+            </div>
+
+            <div class="footer-copyright">
+                <div class="footer-sub-tagline" style="font-size: 0.65rem; margin-bottom: 0.4rem; opacity: 0.75; font-family: var(--font-ui); text-transform: uppercase; letter-spacing: 1px;">Technology &amp; Aesthetics built by Ria Chawak</div>
+                &copy; 2026
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="static/js/main.js"></script>
+</body>
+</html>
