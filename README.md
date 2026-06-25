@@ -45,14 +45,14 @@ This portfolio is designed with a curated **"Old Money" / Classic Editorial** ae
 ## 📁 Repository Structure
 
 The repository contains compiled static files optimized for instant delivery via GitHub Pages:
-├── index.html # Home page (Hero section & contact modal) 
-├── about.html # Biography & academic timelines 
-├── experience.html # Professional work timeline & volunteer registry 
-├── projects.html # Interactive cards with dual repository & live links 
-├── skills.html # Technical skills inventory & credentials ledger 
-├── publications.html # Scientific research publications & LORs 
-├── resume.html # Print-optimized interactive curriculum vitae 
-├── README.md # Repository documentation 
+├── index.html # Home page (Hero section & contact modal) <br>
+├── about.html # Biography & academic timelines <br>
+├── experience.html # Professional work timeline & volunteer registry <br>
+├── projects.html # Interactive cards with dual repository & live links <br>
+├── skills.html # Technical skills inventory & credentials ledger <br>
+├── publications.html # Scientific research publications & LORs <br>
+├── resume.html # Print-optimized interactive curriculum vitae <br>
+├── README.md # Repository documentation <br>
 └── static/ # Assets folder (CSS styling, Main JS, and Images)
 
 
